@@ -1,0 +1,5 @@
+<launch>
+
+<node pkg="rqt_gui" type="rqt_gui" name="rqt_gui_window" args=" -l -f --perspective-file $(find rqt_monitor)/perspectives/bci_project_perspective_rqt.perspective " />
+
+</launch>
